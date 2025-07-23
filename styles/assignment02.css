@@ -19,26 +19,46 @@ body{
     margin: 0px;
     padding: 0px;
 }
+/* shared styles */
+.dark-1{
+color: #8987A1;
+}
+.dark-2{
+    color: black;
+    font-weight: bold;
+}
+.dark-3{
+    color: #252432;
+    font-weight: 600;
+}
+.dark-4{
+    color: black;
+}
+.text-color{
+    color: #E95A08;
+}
 /* header styles */
 .header{
     display: flex;
-    max-width: 71rem;
+    max-width: 71.25rem;
+    max-height:4.43rem ;
     margin: 30px auto;
+    justify-items: center;
     justify-content:space-between;
     align-items: center;
     
-
 }
+
 .logo{
     margin-left: 2px;
     width:8.4rem;
     height: 5.1rem;
 }
+/* nav styles */
 
 ul{
     display: flex;
     gap: 3rem;
-    padding: 18px;
 }
 nav ul li{
     
@@ -46,4 +66,32 @@ nav ul li{
 }
 li a{
 text-decoration: none;
+}
+
+/* banner styles */
+.banner-content{
+margin-top:162px ;
+}
+.banner{
+    display: flex;
+    justify-items: center;
+    margin: 120px auto;
+    max-width: 71.25rem; 
+    max-height: 28.81rem;
+}
+.banner-title{
+    margin: 0px;
+    font-size:4rem;
+    font-weight: bold;
+}
+.banner-description{
+    margin-top: 13px;
+    margin-bottom: 0px;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.hero-img{
+    margin-top: 106px; 
+    width: 35.62rem;
+    height: 22.18rem;
 }
