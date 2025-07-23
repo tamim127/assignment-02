@@ -1,0 +1,49 @@
+
+/* google fonts */
+
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body{
+    background-color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+}
+/* header styles */
+.header{
+    display: flex;
+    max-width: 71rem;
+    margin: 30px auto;
+    justify-content:space-between;
+    align-items: center;
+    
+
+}
+.logo{
+    margin-left: 2px;
+    width:8.4rem;
+    height: 5.1rem;
+}
+
+ul{
+    display: flex;
+    gap: 3rem;
+    padding: 18px;
+}
+nav ul li{
+    
+    list-style: none;
+}
+li a{
+text-decoration: none;
+}
