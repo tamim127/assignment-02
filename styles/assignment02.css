@@ -15,9 +15,13 @@
 }
 
 body {
+    max-width: 1440px;
     background-color: aliceblue;
     margin: 0px;
     padding: 0px;
+}
+main{
+    max-width: 1440px;
 }
 
 /* shared styles */
@@ -140,12 +144,13 @@ li a {
 }
 .card{
     margin-top: 50px;
-    max-width: 16.875rem;
+    max-width: 100%;
     max-height: 30.25rem;
     justify-items: center;
+    border: 1px solid bisque;
 }
 .card-img{
-    width: 16.875rem;
+    width: 100%;
     height: 20.125rem;
 }
 
@@ -162,20 +167,55 @@ li a {
     font-weight: bold;
     font-size: 1.375rem;
     color: #111111;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .btn{
     background-color: #E95A08;
-    width: 16.875em;
     padding: 19px 80px;
+    width: 270px;
     text-align: center;
     align-items: center;
     font-weight: 500;
     font-size: 1rem;
     color: #ffffff;
+    border: none;
 
 }
+/* flower lover section */
 
+.flower-lover-container{
+    background-color: antiquewhite;
+    max-width: 71.25rem;
+    max-height: 37.31rem;
+}
+.flower-lover{
+    display: flex;
+    gap: 50px;
+    margin: 0 auto;
+}
+.flower-lover-description{
+    display: flex;
+    flex-direction: column;
+}
+.flower-lover-img{
+    width: 540px;
+    height: 597px;
+}
+
+/* join section style */
+.newsletter-img{
+    background-image: url(../assets/news-letter-bg.png);
+    max-width: 100%;
+    max-height: 533px;
+}
+.newsletter-container{
+    height: 533px;
+}
+
+/* footer section */
+.footer{
+    background-color: rgb(76, 167, 247);
+}
 /* small device responsive */
 @media screen and (max-width:576px) {
     .header {
@@ -241,6 +281,46 @@ li a {
 
     }
 /* Our plants section */
-.all-cards{
-    grid-template-columns: repeat(2,1fr);
+@media screen and (max-width: 576px) {
+  .all-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 10px;
+    margin-top: 50px;
+    padding: 0 10px;
+    max-width: 362px;
+    /* overflow: hidden; */
+  }
+
+  .card {
+    max-width: 171px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .card-img {
+    width: 171px;
+    height: auto;
+  }
+
+  .btn {
+    width: 171px;
+    padding: 12px 0;
+  }
+
+}
+  .our-plants-heading {
+    width: 393px;
+    margin: ;
+    padding: 0 16px;
+  }
+
+  .plants-title {
+    font-size: 24px;
+  }
+
+  .plants-description {
+    width: 336px;
+    margin: 0 28px;
+    font-size: 14px;
+  }
 }
