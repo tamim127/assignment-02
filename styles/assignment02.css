@@ -437,12 +437,6 @@ ul li {
     box-sizing: border-box;
   }
 
-  /* 
-  body, main {
-    width: 100%;
-    overflow-x: hidden;
-  } */
-
   /* Header responsive */
   .header {
     flex-direction: row;
@@ -575,7 +569,7 @@ ul li {
   padding: 20px;
 }
 
-}
+
 .social-column,
 .social-icons {
   display: flex;
@@ -590,7 +584,10 @@ ul li {
  .text-pmy{
   font-size: 24px;
  }
+  /* @media screen and (max-width:576px) { */
+    
 .deals-container{
+  display: flex;
   flex-direction: column;
   padding: 0 16px;
   gap:20px;
@@ -622,3 +619,4 @@ ul li {
   
 }
   }
+  
